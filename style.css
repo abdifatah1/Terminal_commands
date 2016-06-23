@@ -1,0 +1,33 @@
+body{
+  background:#070B19;
+}
+h1{
+  color: teal;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+ul{
+  color: teal;
+  text-decoration: none;
+  font-size: 17px;
+}
+li{
+  list-style-type: none;
+background:#566911;
+  font-size:25px;
+  font-weight:bold;
+  text-align: center;
+  font-family:Andale Mono, monospace;
+  width:40%;
+}
+dt{
+  margin: 5px;
+  font-size: 25px;
+  background:#566911;
+  width:35%;
+}
+dd{
+  font-size: 20px;
+  width: 40%
+}
