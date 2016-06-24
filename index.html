@@ -7,8 +7,9 @@
   </head>
   <body>
     <h1>TERMINAL COMMAND</h1>
-    <ul class="list">
-      <li class="directory">Directories</li>
+    <div class="direcorty">
+    <ul>
+      <li>Directories</li>
     </ul>
       <dl>
         <dt>$pwd</dt>
@@ -24,8 +25,10 @@
         <dt>ls -la</dt>
         <dd>List detailed directory contents,including hiden files</dd>
       </dl>
-      <ul class="list">
-        <li class="directory">Files</li>
+    </div>
+    <div class="files">
+      <ul>
+        <li>Files</li>
       </ul>
         <dl>
           <dt>$rm file</dt>
@@ -43,6 +46,84 @@
           <dt>$touch file</dt>
           <dd>Update file access & modification time (create file it it doesn't exist)</dd>
         </dl>
+        </div>
+        <div class="output">
+        <ul>
+          <li>Output</li>
+        </ul>
+          <dl>
+            <dt>$cat file</dt>
+            <dd>Output the contents of file</dd>
+            <dt>$less file<dt>
+            <dd>Output the contents of file using the less command (which supports pagination etc.)</dd>
+            <dt>$head file</dt>
+            <dd>Output the first 10 lines of file</dd>
+            <dt>$cmd file</dt>
+            <dd>Direct the output of cmd into file</dd>
+            <dt>$cmd >> file </dt>
+            <dd>Append the output of cmd to file</dd>
+            <dt>$cmd1 | cmd2</dt>
+            <dd>Direct the output of cmd1 to cmd2</dd>
+            <dt>$clear</dt>
+            <dd>clear the command line window</dd>
+          </dl>
+          </div>
+          <div class "search">
+          <ul>
+            <li>Search</li>
+          </ul>
+            <dl>
+              <dt>$find dir -name file</dt>
+              <dd>Find all files named file inside di(use wildcards[*] to searchh for parts of filenames</dd>
+              <dt>$grep "text" file<dt>
+              <dd>Output all accurrences of text inise file (add -i for case-insenitivity)</dd>
+              <dt>$grep -rl "text" dir </dt>
+              <dd>Search for all files containin text inside dir</dd>
+            </dl>
+            </div>
+            <div class="network">
+            <ul>
+              <li>Network</li>
+            </ul>
+              <dl>
+                <dt>$ping host</dt>
+                <dd>Ping host and display status</dd>
+                <dt>$whois domain<dt>
+                <dd>Output whois information for domain</dd>
+                <dt>$curl -0 (url/to file) </dt>
+                <dd>Download file via HTTP[S] or FTP</dd>
+                <dt>$ssh username@host</dt>
+                <dd>Establish an SSH connection to host with user</dd>
+                <dt>scp file</dt>
+                <dd>Copy file to a remote host</dd>
+              </dl>
+              </div>
+              <div class="permission">
+              <ul>
+              <li>Permisssions</li>
+              </ul>
+              <dl>
+                <dt>$chmod 775 file</dt>
+                <dd>Change permissions of file to 755</dd>
+                <dt>$$chmod -R 600 directory<dt>
+                <dd>Change permissions of directory (and it's contents) to 600</dd>
+                <dt>$chown user : group file</dt>
+                <dd>Change ownership of file to ouser and group (add -R to include a directory's contents)</dd>
+              </dl>
+              </div>
+              <div class="processes">
+              <ul>
+              <li>Processes</li>
+              </ul>
+              <dl>
+                <dt>$ps ax</dt>
+                <dd>Output currently running processes</dd>
+                <dt>top</dt>
+                <dd>Display live informations about currently running processes</dd>
+                <dt>$kill pid</dt>
+                <dd>Quit process with ID pid</dd>
+              </dl>
+              </div>
 
 
 

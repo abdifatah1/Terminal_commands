@@ -14,13 +14,14 @@ ul{
 }
 li{
   list-style-type: none;
-  border:5px solid green;
   font-size:25px;
   font-weight:bold;
   text-align: center;
   font-family:Andale Mono, monospace;
-  width:70%;
-  margin-left: 100px;
+  width:33%;
+  background: teal;
+  color: white;
+
 }
 dl{
   color: teal;
@@ -28,13 +29,32 @@ dl{
 dt{
   font-size:20px;
   font-weight: bold;
-  width: 70%;
+  width: 40%;
   margin: 5px;
   margin-left: 60px;
 }
 dd{
   font-size:15px;
-  width: 70%;
+  width: 40%;
   margin: 5px;
   margin-left: 60px
+}
+.files{
+  position: absolute;
+  top:90px;
+  margin: auto;
+  right:-250px;
+  width:70%;
+}
+.network{
+  position: absolute;
+  top: 600px;
+  right:-250px;
+  width: 70%;
+}
+.permission{
+  position: absolute;
+  top: 960;
+  right:-250px;
+  width: 70%
 }
