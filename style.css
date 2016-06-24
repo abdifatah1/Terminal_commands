@@ -14,20 +14,27 @@ ul{
 }
 li{
   list-style-type: none;
-background:#566911;
+  border:5px solid green;
   font-size:25px;
   font-weight:bold;
   text-align: center;
   font-family:Andale Mono, monospace;
-  width:40%;
+  width:70%;
+  margin-left: 100px;
+}
+dl{
+  color: teal;
 }
 dt{
+  font-size:20px;
+  font-weight: bold;
+  width: 70%;
   margin: 5px;
-  font-size: 25px;
-  background:#566911;
-  width:35%;
+  margin-left: 60px;
 }
 dd{
-  font-size: 20px;
-  width: 40%
+  font-size:15px;
+  width: 70%;
+  margin: 5px;
+  margin-left: 60px
 }

@@ -9,7 +9,8 @@
     <h1>TERMINAL COMMAND</h1>
     <ul class="list">
       <li class="directory">Directories</li>
-      <ul>
+    </ul>
+      <dl>
         <dt>$pwd</dt>
         <dd>Display path of current directory</li>
         <dt>$cd<dt>
@@ -22,7 +23,28 @@
         <dd>List directory contents</dd>
         <dt>ls -la</dt>
         <dd>List detailed directory contents,including hiden files</dd>
+      </dl>
+      <ul class="list">
+        <li class="directory">Files</li>
       </ul>
+        <dl>
+          <dt>$rm file</dt>
+          <dd>Delete file</li>
+          <dt>$rm -r directory<dt>
+          <dd>Delete Directory</dd>
+          <dt>$rm -f file</dt>
+          <dd>Force-delete file (add -r to force-delete a directory)</dd>
+          <dt>$mv file-old file-new</dt>
+          <dd>Move file to directory (possible overwriting an existing file)</dd>
+          <dt>cp file directory</dt>
+          <dd>Copy file to directory (possible overwriting an existing file)</dd>
+          <dt>cp -r directory1 directory2</dt>
+          <dd>Copy directory1 and its contents to directory<dd>
+          <dt>$touch file</dt>
+          <dd>Update file access & modification time (create file it it doesn't exist)</dd>
+        </dl>
+
+
 
 
   </body>
