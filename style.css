@@ -1,12 +1,14 @@
 body{
   background:#070B19;
 }
+      /*header*/
 h1{
   color: teal;
   text-align: center;
   font-size: 40px;
   text-decoration: underline;
 }
+      /*ul li*/
 ul{
   color: teal;
   text-decoration: none;
@@ -23,6 +25,8 @@ li{
   color: white;
 
 }
+
+        /*dt dl*/
 dl{
   color: teal;
 }
@@ -39,6 +43,8 @@ dd{
   margin: 5px;
   margin-left: 60px
 }
+
+    /*files*/
 .files{
   position: absolute;
   top:15%;
@@ -46,28 +52,36 @@ dd{
   right:-250px;
   width:70%;
 }
+      /*network*/
 .network{
   position: absolute;
   top: 115%;
   right:-250px;
   width: 70%;
 }
+
+      /*permission*/
 .permission{
   position: absolute;
   top: 180%;
   right:-250px;
   width: 70%
 }
+
 /*#container{
   position: static;
   width: 100%;
   margin-left: 15%;
 }*/
+
 /*media query from here*/
+
 @media screen and (max-width:860px) {
   body{
     background:#070B19;
   }
+
+  /*header*/
   h1{
     color: teal;
     text-align: center;
@@ -76,6 +90,8 @@ dd{
     width: 80%;
     margin-left: 15%;
   }
+
+  /*ul li*/
   ul{
     color: teal;
     text-decoration: none;
@@ -92,6 +108,8 @@ dd{
     color: white;
 
   }
+
+  /*dt dl*/
   dl{
     color: teal;
   }
@@ -108,43 +126,56 @@ dd{
     margin: 5px;
     margin-left: 60px
   }
+
+        /*directory*/
   .directory{
     position: static;
     width: 80%;
     margin-left: 15%;
   }
+
+      /*files*/
   .files{
     position: static;
     width: 80%;
     margin-left: 15%;
   }
+
+  /*output*/
   .output{
     position: static;
     width: 80%;
     margin-left: 15%;
   }
+
+  /*search*/
   .search{
     position: static;
     width: 80%;
     margin-left: 15%;
   }
+  /*network*/
   .network{
     position: static;
     width: 80%;
     margin-left: 15%;
   }
+
+  /*permission*/
   .permission{
     position: static;
     width: 80%;
     margin-left: 15%;
   }
+
+  /*processes*/
   .processes{
     position: static;
     width: 80%;
     margin-left: 15%;
   }
 }
-
+/*another media query starts here*/
 @media screen and (max-width:450px){
   h1 {
     display: none;
